@@ -1,0 +1,28 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+head {
+	margin: 0;
+	padding: 0;
+	width: 0;
+	height: 0;
+}
+body {
+	margin: 0 auto;
+	margin-top: -1em;
+	padding: 0;
+	width: 100vw
+	height: 100vh;
+}
+
+.background {
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+.clock {
+	color: #ffffff;
+}
