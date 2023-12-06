@@ -10,7 +10,6 @@ head {
 }
 body {
 	margin: 0 auto;
-	margin-top: -1em;
 	padding: 0;
 	width: 100vw
 	height: 100vh;
@@ -25,7 +24,32 @@ body {
 
 .clock {
 	color: #ffffff;
+	text-align: center;
+	font-family: ubuntu;
+	font-size: 15em;
 }
+
 label {
+	margin: 5px;
 	color: #ffffff;
+	font-family: ubuntu;
+	font-size: 2em;
+}
+input {
+	margin: 5px;
+	font-family: ubuntu;
+	font-size: 2em;
+}
+button {
+	margin: 5px;
+	font-family: ubuntu;
+	font-size: 2em;
+}
+
+.center {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
